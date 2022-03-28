@@ -1,0 +1,438 @@
+// change the theme
+$primary: #880071 !important;
+$danger: #85006e;
+
+.bg-primary,
+.btn-primary {
+  background-color: $primary;
+}
+
+.primcolor {
+  color: $primary;
+}
+
+.footer-bg {
+  background-color: #2d2d2d;
+}
+
+.css-1hskriy {
+  width: 320px !important;
+}
+
+.css-1f8bwsm {
+  min-width: 30px !important;
+}
+.css-cveggr-MuiListItemIcon-root {
+  min-width: 30px !important;
+}
+
+.navbar-collapse {
+  z-index: 100;
+}
+.navbar {
+  .navbar-toggler {
+    z-index: 100;
+  }
+  .navbar-brand {
+    z-index: 100;
+    &:hover {
+      text-decoration: none !important;
+      border-bottom: none !important;
+    }
+  }
+  .nav-link {
+    display: initial !important;
+    &:hover {
+      text-decoration: none;
+    }
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  .nav-item {
+    a {
+      text-decoration: none !important;
+    }
+  }
+}
+.collapsed-sandwich {
+  display: none;
+}
+
+// containers
+
+.c-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.h-container {
+  margin: 0 auto;
+}
+.l-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 70px);
+}
+.input-container {
+  padding: 15px 0;
+}
+.r-r-container {
+  background-image: url("./img/bg_commreg.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.r-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.tag-container {
+  max-width: 800px;
+  min-height: 400px;
+  margin: 0 auto 0 auto;
+  padding: 30px 40px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 40px;
+  text-align: center;
+  align-items: center;
+}
+.button-cont {
+  width: 100%;
+  text-align: center;
+}
+
+// tags
+
+#tag-dl {
+  display: none;
+}
+
+// admin sekce
+
+.tabs-menu {
+  width: 100%;
+  margin-top: 70px;
+  ul {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline-start: 0px;
+  }
+  li {
+    padding: 0 15px;
+    margin: 16px;
+  }
+}
+
+.admin-list {
+  cursor: pointer;
+}
+.list-active {
+  font-weight: bold;
+  color: purple;
+}
+
+.admin-container {
+  max-width: 1400px;
+  margin: 0 auto 0 auto;
+  padding: 50px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.tabs {
+  display: none;
+}
+
+.tabs-active {
+  display: block;
+}
+
+// user profile
+
+.up-container {
+  max-width: 1280px;
+  min-height: 450px;
+  margin: 70px auto 0 auto;
+}
+.up-grid {
+  overflow: visible;
+  grid-template-columns: 30% 70%;
+  gap: 30px;
+  display: grid;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.up-card {
+  background-color: white;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  img {
+    width: 150px;
+    border-radius: 50%;
+  }
+}
+.up-content {
+  min-height: 450px;
+  background-color: white;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+  padding: 20px;
+  margin: 10px;
+}
+.up-content p {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+// pw reset
+.pw-reset-card {
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  box-shadow: 0 0 5px rgb(0 0 0 / 25%);
+  position: absolute;
+  padding: 1em 1.5em;
+  margin: 0 auto;
+  background: #fff;
+  max-width: 100%;
+  width: 30em;
+  text-align: center;
+  font-size: 16px;
+  overflow: auto;
+}
+.pw-reset-wrapper {
+  padding: 0px;
+}
+
+.commreg-pic {
+  position: absolute;
+  top: 0;
+  max-width: 550px;
+  justify-self: flex-end;
+}
+.reg-pic {
+  max-width: 405px;
+  justify-self: flex-end;
+}
+
+#reg-referral,
+#reg-name,
+#reg-company,
+#reg-kontakty,
+#reg-builder,
+#reg-duvody,
+#reg-temata,
+#reg-vzkaz,
+#reg-pass,
+#commreg {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.css-1sg8fd1-MuiButtonBase-root-MuiCheckbox-root {
+  padding: 0 9px !important;
+}
+
+.commregform {
+  width: 500px;
+  padding: 40px;
+  z-index: 100;
+  h3 {
+    margin-bottom: 20px;
+  }
+  .form-group {
+    margin-bottom: 2rem;
+
+    h5 {
+      font-size: 1rem;
+      margin-top: 25px;
+    }
+  }
+  .login-panel {
+    color: black;
+  }
+}
+.loginform {
+  position: relative;
+  max-width: 400px;
+  padding: 40px;
+  z-index: 100;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+  h3 {
+    margin-bottom: 20px;
+  }
+  .form-group {
+    margin-bottom: 2rem;
+  }
+  .login-panel {
+    color: black;
+  }
+}
+.login-pic {
+  max-width: 490px;
+}
+.lcard {
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  margin: 10px;
+}
+
+.bg-text {
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr) !important;
+}
+
+.css-ahj2mt-MuiTypography-root {
+  font-size: 0.8rem !important;
+}
+.css-u4tvz2-MuiFormLabel-root {
+  font-size: 0.8rem !important;
+}
+
+@media (max-width: 992px) {
+  .collapsed-sandwich {
+    display: block;
+  }
+  .MuiFormGroup-root {
+    text-align: left;
+  }
+  .ml-auto {
+    background-color: rgb(87, 0, 90);
+  }
+  .color-overlay {
+    opacity: 0;
+  }
+  .login-pic {
+    display: none;
+  }
+  .reg-pic {
+    display: none;
+  }
+  .l-container {
+    grid-template-columns: none;
+    height: calc(100vh - 110px);
+  }
+  .loginform {
+    text-align: center;
+  }
+  #reg-referral,
+  #reg-name,
+  #reg-company,
+  #reg-kontakty,
+  #reg-builder,
+  #reg-duvody,
+  #reg-temata,
+  #reg-vzkaz,
+  #reg-pass,
+  #commreg {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .admin-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .container-ft {
+    text-align: center;
+    img {
+      display: none;
+    }
+  }
+  .css-1gyr8kh {
+    width: auto !important;
+  }
+  .commregform {
+    width: auto !important;
+  }
+  .admin-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+footer {
+  color: white;
+
+  .container-ft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 20px;
+  }
+  ul {
+    margin: 10px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-inline-start: 0px;
+  }
+  li {
+    padding: 0 15px;
+    margin-bottom: 16px;
+  }
+  a {
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+
+    &:hover {
+      color: $primary;
+      text-decoration: none;
+    }
+  }
+  i {
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+
+    &:hover {
+      color: $primary;
+    }
+  }
+}
+
+// Import Bootstrap and its default variables
+@import "https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css";
